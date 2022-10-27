@@ -33,6 +33,11 @@
 			<artifactId>modelmapper</artifactId>
 			<version>2.3.5</version>
 		</dependency>
+		<!-- user padrão security: user / senha aparece no log -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+		</dependency>
 
 		<!-- SWAGGER -->
 		<!-- https://mvnrepository.com/artifact/io.springfox/springfox-swagger2 -->
