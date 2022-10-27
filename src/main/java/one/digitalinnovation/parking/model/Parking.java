@@ -1,9 +1,13 @@
 package one.digitalinnovation.parking.model;
 
+import javax.persistence.*;
 import java.time.LocalDateTime;
 
+@Entity
 public class Parking {
 
+    @Id
+    //@GeneratedValue(strategy = GenerationType.AUTO)
     private String id;
     private String license;
     private String state;
